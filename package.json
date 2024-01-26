@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-react-vite-typescript",
+  "version": "1.0.0",
+  "author": "demonicdior@icloud.com",
+  "description": "React initial environment configured with Monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-demonicdior:demonicdior/monorepo-react-vite-typescript.git"
+  },
+  "workspaces": {
+    "packages": [
+      "pakages/*",
+      "sites/*"
+    ]
+  }
+}
